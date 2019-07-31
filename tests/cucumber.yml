@@ -1,0 +1,11 @@
+---
+
+default: --profile pretty -p tst -p firefox -p html
+
+pretty: --format pretty
+
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
+tst: AMBIENTE=tst
+
+html: --format html --out=report/relatorio.html
